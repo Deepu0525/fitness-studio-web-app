@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Fitness Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#schedule">Class Schedule</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#booking">Book a Class</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Class Schedule Section -->
+    <section id="schedule">
+        <h2>Class Schedule</h2>
+        <!-- Add your class schedule here -->
+        <!-- Class Schedule Section -->
+<section id="schedule">
+        <table>
+        <tr>
+            <th>Class Name</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Yoga Class</td>
+            <td>Monday</td>
+            <td>8:00 AM - 9:30 AM</td>
+        </tr>
+        <tr>
+            <td>Zumba Fitness</td>
+            <td>Wednesday</td>
+            <td>6:30 PM - 8:00 PM</td>
+        </tr>
+        <tr>
+            <td>Cardio Blast</td>
+            <td>Friday</td>
+            <td>7:00 AM - 8:30 AM</td>
+        </tr>
+        <!-- Add more rows for additional classes -->
+    </table>
+</section>
+
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers">
+        <h2>Trainers</h2>
+        <!-- Trainer bios with photos -->
+        <div class="trainer">
+            <img src="trainer1.png" alt="Trainer 1">
+            <h3>Trainer 1 Name</h3>
+            <p>Bio for Trainer 1...</p>
+        </div>
+        <div class="trainer">
+            <img src="trainer2.png" alt="Trainer 2">
+            <h3>Trainer 2 Name</h3>
+            <p>Bio for Trainer 2...</p>
+        </div>
+        <!-- Add more trainers as needed -->
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <!-- Pricing details -->
+        <div class="pricing-plan">
+            <h3>Plan 1</h3>
+            <p>Price: $X per month</p>
+            <p>Includes: Features of this plan...</p>
+        </div>
+        <div class="pricing-plan">
+            <h3>Plan 2</h3>
+            <p>Price: $Y per month</p>
+            <p>Includes: Features of this plan...</p>
+        </div>
+        <!-- Add more pricing plans as needed -->
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book a Class</h2>
+        <!-- Booking system integration and form -->
+        <p>Select a class from the schedule and book below:</p>
+        <form action="booking.php" method="POST">
+            <label for="class">Choose a Class:</label>
+            <select id="class" name="class">
+                <!-- Populate with class options -->
+                <option value="class1">Class 1</option>
+                <option value="class2">Class 2</option>
+                <!-- Add more class options as needed -->
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Fitness Studio</p>
+    </footer>
+</body>
+</html>
